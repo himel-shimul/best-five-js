@@ -48,6 +48,54 @@
                     <button id="mbappe"
                         class="m-auto block bg-blue-500 hover:bg-blue-700 text-white py-2 px-16 rounded">SELECT</button>
                 </div>
+                <div id="players" class="my-3 text-white bg-black p-3 border-black rounded">
+                    <h2 class="text-center text-xl font-semibold my-2">Select Five - <span id="count">0</span></h2>
+                    <ul id="total-players">
+
+                    </ul>
+                </div>
+                <div class="my-3 bg-current pb-3 border-black rounded">
+                    <img class="object-cover w-full" src="image/vitor.png" alt="">
+                    <h4 id="vitor-txt" class="text-white text-center my-2">Vítor Machado</h4>
+                    <button id="vitor"
+                        class="m-auto block bg-blue-500 hover:bg-blue-700 text-white py-2 px-16 rounded">SELECT</button>
+                </div>
+                <div class="my-3 bg-current pb-3 border-black rounded">
+                    <img class="object-cover w-full" src="image/ramos.png" alt="">
+                    <h4 id="ramos-txt" class="text-white text-center my-2">Sergio Ramos</h4>
+                    <button id="ramos"
+                        class="m-auto block bg-blue-500 hover:bg-blue-700 text-white py-2 px-16 rounded">SELECT</button>
+                </div>
+                <div class="my-3 bg-current pb-3 border-black rounded">
+                    <img class="object-cover w-full" src="image/renato.png" alt="">
+                    <h4 id="renato-txt" class="text-white text-center my-2">Renato Sanches</h4>
+                    <button id="renato"
+                        class="m-auto block bg-blue-500 hover:bg-blue-700 text-white py-2 px-16 rounded">SELECT</button>
+                </div>
+                <div class="my-3 bg-current p-3 border-black rounded">
+                    <h1 class="text-white text-center text-xl font-semibold my-2">Budget</h1>
+                    <p class="text-white inline">Per player</p>
+                    <input id="per-player" type="text"><br>
+                    <br>
+                    <button id="calculate"
+                        class="m-auto block bg-blue-500 hover:bg-blue-700 text-white py-2 px-16 rounded">Calculate</button>
+                    <br>
+                    <p class="text-white ">Player Expences: $<span id="player-money">00</span></p>
+                    <p class="text-white inline">Manager</p>
+                    <input id="manager" type="text">
+                    <br>
+                    <br>
+                    <p class="text-white inline">Coach</p>
+                    <input id="coach" type="text">
+                    <br>
+                    <br>
+                    <button id="calculate-total"
+                        class="m-auto block bg-blue-500 hover:bg-blue-700 text-white py-2 px-16 rounded">Calculate
+                        Total</button>
+                    <br>
+                    <p class="text-white inline">Total:</p>
+                    <P class="text-red-600 inline ml-48">$<span id="total-money">00</span></P>
+
 
         </section>
     </main>
