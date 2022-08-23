@@ -69,4 +69,10 @@ document.getElementById('calculate').addEventListener('click', function () {
 
 })
 
+document.getElementById('calculate-total').addEventListener('click', function () {
+    const managerMoney = parseInt(document.getElementById('manager').value);
+    const coachMoney = parseInt(document.getElementById('coach').value);
+    totalMoney = managerMoney + coachMoney + parseInt(document.getElementById('player-money').innerText);
+    document.getElementById('total-money').innerText = totalMoney;
 
+})
