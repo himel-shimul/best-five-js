@@ -7,7 +7,7 @@ function collectPlayers(name) {
         players.appendChild(li);
     }
     else {
-        alert('nooooo');
+        alert('You have already added five players');
     }
 
     document.getElementById('count').innerText = players.children.length;
